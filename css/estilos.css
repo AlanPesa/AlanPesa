@@ -10,13 +10,15 @@ body{
    background-position: center;
 }
 
-.navColor :hover{
-    color: black;
+.navbar-nav :hover{
+    background-image: linear-gradient(to right top, #f21a1a, #f74411, #fa5f06, #fc7600, #fe8b00, #f89d00, #f1ad00, #e8bd00, #d2ce00, #b2de00, #83ee00, #00fd2b);
+    font-weight: 700;
+    cursor: pointer;
 }
 
 
 .logo{
-    width: 50%;
+    width: 30%;
 }
 
 .tamañoLetras{
@@ -24,6 +26,8 @@ body{
 }
 
 iframe{
+    width: 400px;
+    height: 370px;
     margin-top: 90px;
     margin-left: 20px;
 }
@@ -35,14 +39,15 @@ footer a img{
 .contenedorRedes{
     margin-top: 100px;
     display: flex;
-    justify-content: right;
-    margin-left: 10px;
+    justify-content: center;
+    margin-left: 50px;
 }
 
 footer p{
     color: rgb(0, 0, 0);
     height: auto;
-    text-align: right;
+    justify-content: space-evenly;
+    text-align: center;
     font-size: 170%;
     font-family: 'Poppins', sans-serif;
     font-style: italic
@@ -70,5 +75,69 @@ form ul li label{
 
 .iframe{
     grid-area: mapa;
+}
+
+.logoRedes:hover{
+    transform: scale(2);
+}
+
+.tamaño:hover{
+    transform: scale(1.3);
+}
+
+main div figure img{
+    margin-top: 100px;
+}
+
+main div figure figcaption{ 
+    color: black;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+main div figure p{
+    color: black;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+/* .contenedorTienda{
+    display: flex;
+    justify-content: space-evenly;
+} */
+
+.colorCabecera {
+    background-image: linear-gradient(to right top, #ff0091, #ff42ab, #fd62c3, #fa7cd9, #f693eb, #fb97e2, #fe9bd9, #ffa0d2, #ff9eaa, #ffb16f, #ffd731, #c7ff27);
+}
+
+main h1{
+    background-image:url(../Multimedia/fondo3.jpg) ;
+    background-repeat: repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 80px;
+    margin-top: 40px;
+}
+
+main p{
+    color:#ff00dd;
+    text-align: center;
+    font-size: large;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+section h2{
+    text-align: center;
+    font-size: 70px;
+    color: red;
+}
+
+section p{
+    text-align: center;
+    font-size: x-large;
+    font-weight: 500;
+    background-image: linear-gradient(to bottom, #ff08b4, #ff5bc9, #ff85da, #ffa8e9, #ffc8f5);
+    color: #0018ec ;
 }
 
